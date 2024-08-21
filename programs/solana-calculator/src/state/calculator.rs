@@ -5,6 +5,7 @@ pub struct Calculator {
     pub greeting: String,
     pub remainder: i32,
     pub result: i32,
+    pub bump: u8,
 }
 
 #[derive(AnchorDeserialize, AnchorSerialize)]
